@@ -1,6 +1,6 @@
 # GitHub Repository Summarizer API
 
-This project implements an API service that accepts a public GitHub repository URL and returns a human-readable summary of the project using an LLM accessed through Nebius Token Factory.
+This project implements an API service that accepts a public GitHub repository URL and returns a human-readable summary of the project using an LLM (accessed through Nebius Token Factory).
 
 The API analyzes repository contents, selects the most informative files, and generates:
 
@@ -72,12 +72,12 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4. Configure Nebius API key
+### 4. Configure LLM access API key
 
-Set your Nebius Token Factory API key using an environment variable.
+Set your LLM access API key (e.g., Nebius Token Factory) using an environment variable.
 
 ```bash
-export NEBIUS_API_KEY=YOUR_API_KEY
+export API_KEY=YOUR_API_KEY
 ```
 
 ### 5. Start the server
