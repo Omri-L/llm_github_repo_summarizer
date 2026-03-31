@@ -9,7 +9,7 @@ MODEL = "meta-llama/Llama-3.3-70B-Instruct"
 
 client = OpenAI(
     base_url="https://api.tokenfactory.nebius.com/v1/",
-    api_key=os.environ.get("NEBIUS_API_KEY"),
+    api_key=os.environ.get("API_KEY"),
 )
 
 
