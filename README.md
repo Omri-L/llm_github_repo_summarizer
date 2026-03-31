@@ -74,7 +74,7 @@ pip install -r requirements.txt
 
 ### 4. Configure LLM access API key
 
-Set your LLM access API key (e.g., Nebius Token Factory) using an environment variable.
+Set your LLM access API key (e.g., Nebius Token Factory: https://tokenfactory.nebius.com/) using an environment variable.
 
 ```bash
 export API_KEY=YOUR_API_KEY
